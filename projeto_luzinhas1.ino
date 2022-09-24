@@ -13,7 +13,7 @@ void loop()
   int a[4] = {2,5,8,13};            //Definindo as portas dos LEDS
   int i = 0;                        //Controle do Index do Array
   
-  while() {
+  while(true) {
   	int led = a[i];                 //Identifica qual LED acender
     digitalWrite(led, HIGH);        //Liga o LED
     delay(1000);                    //Delay 
